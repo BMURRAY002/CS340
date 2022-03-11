@@ -1,0 +1,14 @@
+Expr parsed as NUM!
+Expr parsed as NUM!
+Expr parsed as plus!
+Stmt parsed as exp!
+Empty stmt list parsed!
+Stmt list parsed!
+Program parsed correctly!
+Printing abstract syntax tree...
+...
+Statement List
+    Statement as Expression
+        Binary operator '+'
+            Number: 3.0
+            Number: 5.0

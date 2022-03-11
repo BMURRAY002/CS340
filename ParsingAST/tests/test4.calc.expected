@@ -1,0 +1,28 @@
+Expr parsed as NUM!
+Expr parsed as NUM!
+Expr parsed as plus!
+Stmt parsed as assignment!
+Expr parsed as ID!
+Expr parsed as ID!
+Expr parsed as minus!
+Stmt parsed as assignment!
+Expr parsed as ID!
+Stmt parsed as print!
+Empty stmt list parsed!
+Stmt list parsed!
+Stmt list parsed!
+Stmt list parsed!
+Program parsed correctly!
+Printing abstract syntax tree...
+...
+Statement List
+    Assignment to variable: two
+        Binary operator '+'
+            Number: 1.0
+            Number: 1.0
+    Assignment to variable: zero
+        Binary operator '-'
+            Identifier: two
+            Identifier: two
+    Print Statement
+        Identifier: zero

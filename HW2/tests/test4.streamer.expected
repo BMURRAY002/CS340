@@ -1,0 +1,14 @@
+Token: LIST	Line: 1	Column: 1	Value: null
+Token: LT	Line: 1	Column: 5	Value: null
+Token: TEXT	Line: 1	Column: 6	Value: null
+Token: GT	Line: 1	Column: 10	Value: null
+Token: ID	Line: 1	Column: 12	Value: arrOfStrings
+Token: ASSIGN	Line: 1	Column: 25	Value: null
+Token: OPCURLY	Line: 1	Column: 27	Value: null
+Token: STRING	Line: 1	Column: 28	Value: "Hello"
+Token: COMMA	Line: 1	Column: 35	Value: null
+Token: STRING	Line: 1	Column: 37	Value: "there"
+Token: COMMA	Line: 1	Column: 44	Value: null
+Token: STRING	Line: 1	Column: 46	Value: "friends"
+Token: CLCURLY	Line: 1	Column: 55	Value: null
+Token: SEMICOL	Line: 1	Column: 56	Value: null

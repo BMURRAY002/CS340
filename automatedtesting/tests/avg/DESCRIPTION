@@ -1,0 +1,3 @@
+The program will ask the user to enter numbers until the user enters -1.
+Then, the program will print out the average of the numbers entered
+(excluding the final -1).

@@ -1,0 +1,8 @@
+Token: TEXT	Line: 1	Column: 1	Value: null
+Token: ID	Line: 1	Column: 6	Value: myStr
+Token: ASSIGN	Line: 1	Column: 12	Value: null
+Token: STRING	Line: 1	Column: 14	Value: "This is line one with \"quotes inside\". \n This is line two."
+Token: SEMICOL	Line: 1	Column: 77	Value: null
+Token: PRINT	Line: 2	Column: 1	Value: null
+Token: ID	Line: 2	Column: 7	Value: myStr
+Token: SEMICOL	Line: 2	Column: 12	Value: null

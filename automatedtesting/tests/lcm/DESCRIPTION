@@ -1,0 +1,3 @@
+The program will ask the user for three numbers.
+Then, it will compute the least common multiple for the entered numbers,
+and write it out to the user.

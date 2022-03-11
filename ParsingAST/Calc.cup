@@ -1,0 +1,69 @@
+import java_cup.runtime.*;
+
+/* Terminals (tokens returned by the scanner). */
+/* This is what generates sym.java! */
+terminal PLUS, MINUS, EQUALS, PRINT, SEMICOLON;
+terminal String NUM, ID;
+
+/* Non terminals */
+non terminal StatementListNode stmt_list;
+non terminal StatementNode stmt;
+non terminal ExpressionNode expr;
+
+/* Precedences */
+precedence right EQUALS;
+precedence left PLUS, MINUS;
+
+/* The grammar rules */
+stmt_list ::= stmt:s stmt_list:l
+    {:
+        System.err.println("Stmt list parsed!");
+        /* Add statement at position 0; it should be at the *front* of the list */
+        l.addStatement(s, 0);
+        RESULT = l;
+    :}
+            | /* epsilon */
+    {:
+        System.err.println("Empty stmt list parsed!");
+        RESULT = new StatementListNode();
+    :}
+;
+
+stmt      ::= expr:e SEMICOLON
+    {:
+        System.err.println("Stmt parsed as exp!");
+        RESULT = new ExpressionStatementNode(e);
+    :}
+            | PRINT expr:e SEMICOLON
+    {:
+        System.err.println("Stmt parsed as print!");
+        RESULT = new PrintStatementNode(e);
+    :}
+            | ID:i EQUALS expr:e SEMICOLON
+    {:
+        System.err.println("Stmt parsed as assignment!");
+        RESULT = new AssignStatementNode(i, e);
+    :}
+;
+
+expr      ::= expr:e1 PLUS expr:e2
+    {:
+        System.err.println("Expr parsed as plus!");
+        RESULT = new BinaryOpExpressionNode(e1, e2, "+");
+    :}
+            | expr:e1 MINUS expr:e2
+    {:
+        System.err.println("Expr parsed as minus!");
+        RESULT = new BinaryOpExpressionNode(e1, e2, "-");
+    :}
+            | ID:i
+    {:
+        System.err.println("Expr parsed as ID!");
+        RESULT = new IdExpressionNode(i);
+    :}
+            | NUM:n
+    {:
+        System.err.println("Expr parsed as NUM!");
+        RESULT = new NumExpressionNode(n);
+    :}
+;

@@ -1,0 +1,44 @@
+Token: SWITCH	Line: 1	Column: 1	Value: null
+Token: OPPAREN	Line: 1	Column: 8	Value: null
+Token: ID	Line: 1	Column: 9	Value: args
+Token: OPSQUARE	Line: 1	Column: 13	Value: null
+Token: NUM	Line: 1	Column: 14	Value: 0
+Token: CLSQUARE	Line: 1	Column: 15	Value: null
+Token: CLPAREN	Line: 1	Column: 16	Value: null
+Token: OPCURLY	Line: 2	Column: 1	Value: null
+Token: CASE	Line: 3	Column: 3	Value: null
+Token: STRING	Line: 3	Column: 8	Value: "Monday"
+Token: COLON	Line: 3	Column: 16	Value: null
+Token: PRINT	Line: 4	Column: 5	Value: null
+Token: STRING	Line: 4	Column: 11	Value: "A bit tired; the week is just beginning."
+Token: SEMICOL	Line: 4	Column: 53	Value: null
+Token: CASE	Line: 5	Column: 3	Value: null
+Token: STRING	Line: 5	Column: 8	Value: "Thursday"
+Token: COLON	Line: 5	Column: 18	Value: null
+Token: PRINT	Line: 6	Column: 5	Value: null
+Token: STRING	Line: 6	Column: 11	Value: "Almost done with the week!"
+Token: SEMICOL	Line: 6	Column: 39	Value: null
+Token: CASE	Line: 7	Column: 3	Value: null
+Token: STRING	Line: 7	Column: 8	Value: "Friday"
+Token: COLON	Line: 7	Column: 16	Value: null
+Token: PRINT	Line: 8	Column: 5	Value: null
+Token: STRING	Line: 8	Column: 11	Value: "The weekend is here!"
+Token: SEMICOL	Line: 8	Column: 33	Value: null
+Token: CASE	Line: 9	Column: 3	Value: null
+Token: STRING	Line: 9	Column: 8	Value: "Saturday"
+Token: COLON	Line: 9	Column: 18	Value: null
+Token: PRINT	Line: 10	Column: 5	Value: null
+Token: STRING	Line: 10	Column: 11	Value: "Still enjoying the weekend!"
+Token: SEMICOL	Line: 10	Column: 40	Value: null
+Token: CASE	Line: 11	Column: 3	Value: null
+Token: STRING	Line: 11	Column: 8	Value: "Sunday"
+Token: COLON	Line: 11	Column: 16	Value: null
+Token: PRINT	Line: 12	Column: 5	Value: null
+Token: STRING	Line: 12	Column: 11	Value: "We start all over tomorrow..."
+Token: SEMICOL	Line: 12	Column: 42	Value: null
+Token: DEFAULT	Line: 13	Column: 3	Value: null
+Token: COLON	Line: 13	Column: 10	Value: null
+Token: PRINT	Line: 14	Column: 5	Value: null
+Token: STRING	Line: 14	Column: 11	Value: "Just an ordinary day."
+Token: SEMICOL	Line: 14	Column: 34	Value: null
+Token: CLCURLY	Line: 15	Column: 1	Value: null

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -cp ".:./ast:/usr/people/classes/CS340/software/*" ParserTest $1

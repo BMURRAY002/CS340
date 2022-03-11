@@ -1,0 +1,17 @@
+Token: TEXT	Line: 1	Column: 1	Value: null
+Token: ID	Line: 1	Column: 6	Value: contents
+Token: READ	Line: 1	Column: 15	Value: null
+Token: STRING	Line: 1	Column: 18	Value: "/path/to/file"
+Token: SEMICOL	Line: 1	Column: 33	Value: null
+Token: ERROR	Line: 2	Column: 1	Value: null
+Token: OPCURLY	Line: 3	Column: 1	Value: null
+Token: PRINT	Line: 4	Column: 3	Value: null
+Token: STRING	Line: 4	Column: 9	Value: "No such file"
+Token: SEMICOL	Line: 4	Column: 23	Value: null
+Token: EXIT	Line: 5	Column: 3	Value: null
+Token: NUM	Line: 5	Column: 8	Value: 1
+Token: SEMICOL	Line: 5	Column: 9	Value: null
+Token: CLCURLY	Line: 6	Column: 1	Value: null
+Token: PRINT	Line: 7	Column: 1	Value: null
+Token: ID	Line: 7	Column: 7	Value: contents
+Token: SEMICOL	Line: 7	Column: 15	Value: null

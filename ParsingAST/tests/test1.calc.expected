@@ -1,0 +1,20 @@
+Expr parsed as NUM!
+Stmt parsed as exp!
+Expr parsed as NUM!
+Stmt parsed as exp!
+Expr parsed as NUM!
+Stmt parsed as exp!
+Empty stmt list parsed!
+Stmt list parsed!
+Stmt list parsed!
+Stmt list parsed!
+Program parsed correctly!
+Printing abstract syntax tree...
+...
+Statement List
+    Statement as Expression
+        Number: 1.0
+    Statement as Expression
+        Number: 2.0
+    Statement as Expression
+        Number: 3.0

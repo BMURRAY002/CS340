@@ -1,0 +1,23 @@
+Token: FUNC	Line: 1	Column: 1	Value: null
+Token: VOID	Line: 1	Column: 6	Value: null
+Token: ID	Line: 1	Column: 11	Value: printFile
+Token: OPPAREN	Line: 1	Column: 20	Value: null
+Token: TEXT	Line: 1	Column: 21	Value: null
+Token: ID	Line: 1	Column: 26	Value: path
+Token: CLPAREN	Line: 1	Column: 30	Value: null
+Token: OPCURLY	Line: 2	Column: 1	Value: null
+Token: TEXT	Line: 3	Column: 3	Value: null
+Token: ID	Line: 3	Column: 8	Value: contents
+Token: READ	Line: 3	Column: 17	Value: null
+Token: ID	Line: 3	Column: 20	Value: path
+Token: SEMICOL	Line: 3	Column: 24	Value: null
+Token: PRINT	Line: 4	Column: 3	Value: null
+Token: ID	Line: 4	Column: 9	Value: contents
+Token: SEMICOL	Line: 4	Column: 17	Value: null
+Token: CLCURLY	Line: 5	Column: 1	Value: null
+Token: ID	Line: 7	Column: 1	Value: printFile
+Token: OPPAREN	Line: 7	Column: 10	Value: null
+Token: INPUT	Line: 7	Column: 11	Value: null
+Token: STRING	Line: 7	Column: 17	Value: "Enter file path: "
+Token: CLPAREN	Line: 7	Column: 36	Value: null
+Token: SEMICOL	Line: 7	Column: 37	Value: null

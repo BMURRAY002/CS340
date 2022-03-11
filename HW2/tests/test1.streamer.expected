@@ -1,0 +1,15 @@
+Token: NUMTYPE	Line: 1	Column: 1	Value: null
+Token: ID	Line: 1	Column: 5	Value: x
+Token: ASSIGN	Line: 1	Column: 7	Value: null
+Token: NUM	Line: 1	Column: 9	Value: 3.5
+Token: SEMICOL	Line: 1	Column: 12	Value: null
+Token: NUMTYPE	Line: 2	Column: 1	Value: null
+Token: ID	Line: 2	Column: 5	Value: y
+Token: ASSIGN	Line: 2	Column: 7	Value: null
+Token: ID	Line: 2	Column: 9	Value: x
+Token: PLUS	Line: 2	Column: 11	Value: null
+Token: NUM	Line: 2	Column: 13	Value: 1
+Token: SEMICOL	Line: 2	Column: 14	Value: null
+Token: PRINT	Line: 3	Column: 1	Value: null
+Token: ID	Line: 3	Column: 7	Value: y
+Token: SEMICOL	Line: 3	Column: 8	Value: null

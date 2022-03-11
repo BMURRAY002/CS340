@@ -1,0 +1,56 @@
+import java_cup.runtime.*;
+
+/* Terminals (tokens returned by the scanner). */
+/* This is what generates sym.java! */
+terminal PLUS, ID, SEMICOLON, NUM, MINUS, EQUALS, PRINT;
+
+/* Non terminals */
+non terminal stmt_list, stmt, expr;
+
+/* Precedences */
+precedence left PLUS, MINUS;
+
+/* The grammar rules */
+stmt_list ::= stmt:s stmt_list:l
+    {:
+        System.err.println("Stmt list parsed!");
+    :}
+            | /* epsilon */
+    {:
+        System.err.println("Empty stmt list parsed!");
+    :}
+;
+
+stmt      ::= expr:e SEMICOLON
+    {:
+        System.err.println("Stmt parsed as exp!");
+    :}
+	    |ID:i EQUALS expr:e SEMICOLON
+    {:
+	System.err.println("Stmt parsed as assignment!");
+    :}
+	    |PRINT expr:e SEMICOLON
+    {:
+	System.err.println("Stmt parsed as print!");
+    :}
+;
+
+expr      ::= ID:i
+    {:
+        System.err.println("Expr parsed as ID: " + i);
+    :}
+	    | NUM:n
+    {:
+	System.err.println("Expr parsed as NUM: " + n);
+    :}
+	    | expr:el PLUS expr:e2
+
+    {:
+	System.err.println("Expr parsed as plus!");
+    :}
+	    | expr:el MINUS expr:e2
+    {:
+	System.err.println("Expr parsed as minus!");
+    :}
+
+;

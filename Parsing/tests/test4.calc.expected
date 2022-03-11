@@ -1,0 +1,16 @@
+Expr parsed as NUM!
+Expr parsed as NUM!
+Expr parsed as plus!
+Stmt parsed as assignment!
+Expr parsed as ID: two
+Expr parsed as ID: two
+Expr parsed as minus!
+Stmt parsed as assignment!
+Expr parsed as ID: zero
+Stmt parsed as print!
+Empty stmt list parsed!
+Stmt list parsed!
+Stmt list parsed!
+Stmt list parsed!
+Program parsed correctly!
+Ignoring invalid parse tree for printing...
